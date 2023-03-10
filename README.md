@@ -10,3 +10,27 @@ We show that AdaFNIO can produce visually smooth and accurate results. To evalua
 we calculate the structural similarity index (SSIM) and Peak Signal to Noise Ratio (PSNR) between the generated frame and the ground truth frame. 
 We provide the quantitative performance of our model on Vimeo-90K dataset, DAVIS, UCF101 and DISFA+ dataset.
 
+## Environment
+- GPU: Nvidia A100
+- Cuda: 11.6
+- Python: 3.8
+- pytorch: 1.9.0+cu111
+- cupy: 8.6.0
+- numpy: 1.23.3
+- torchinfo: 1.7.0
+- einops: 0.6.0
+- matplotlib: 3.6.0
+- pillow: 9.2.0
+- sklearn: 1.1.2 
+- torchvision: 0.10.0+cu111
+
+## Citation
+If you find the code helpful in your resarch or work, please cite the following paper.
+```
+@article{viswanath2022nio,
+  title={NIO: Lightweight neural operator-based architecture for video frame interpolation},
+  author={Viswanath, Hrishikesh and Rahman, Md Ashiqur and Bhaskara, Rashmi and Bera, Aniket},
+  journal={arXiv preprint arXiv:2211.10791},
+  year={2022}
+}
+```
