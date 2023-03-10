@@ -1,5 +1,5 @@
 # AdaFNIO: Adaptive Fourier Neural Interpolation Operator for video frame interpolation
-## Hrishikesh Viswanath, Md Ashiqur Rahman, Rashmi Bhaskara, Aniket Bera
+### Hrishikesh Viswanath, Md Ashiqur Rahman, Rashmi Bhaskara, Aniket Bera
 
 We present, AdaFNIO - Adaptive Fourier Neural Interpolation Operator, a neural operator-based architecture to perform video frame interpolation. 
 Current deep learning based methods rely on local convolutions for feature learning and suffer from not being scale-invariant, thus requiring training data to 
